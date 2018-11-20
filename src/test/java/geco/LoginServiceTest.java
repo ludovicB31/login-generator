@@ -19,6 +19,6 @@ public class LoginServiceTest {
     }
 
     @Test
-    public void findAllLogins() {
+    public void findAllLogins() { 
     }
 }
