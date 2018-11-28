@@ -33,5 +33,9 @@ public class LoginGeneratorTest {
         lg.generateLoginForNomAndPrenom("Dûrand", "Paul");
         boolean okkkk=loginService.loginExists("PDUR");
         Assert.assertEquals(true,okkkk);
+
+        lg.generateLoginForNomAndPrenom("Du", "Paul");
+        boolean okkkkk=loginService.loginExists("PDU");
+        Assert.assertEquals(true,okkkkk);
     }
 }
