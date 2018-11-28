@@ -51,7 +51,7 @@ public class LoginGenerator {
         System.out.println(login);
         loginService.addLogin(login);
         return login;
-    }
+    } 
 
     /**
      * Supprime les accents d'une chaine de caractere
